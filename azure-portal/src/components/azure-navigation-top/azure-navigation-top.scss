@@ -1,0 +1,34 @@
+nav {
+  &.azure-navigation {
+    gap: 10px;
+    height: 40px;
+    color: var(--azure-topbar-text);
+    background: var(--azure-topbar-bg);
+    .azure-menu {
+      width: 48px;
+    }
+    .navbar-nav {
+      margin-right: auto;
+      height: 40px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      box-sizing: border-box;
+      padding: 0 20px;
+    }
+    .azure-logo {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: 600;
+      .nav-link {
+        margin-bottom: 0.25rem;
+        &.active {
+          color: white;
+        }
+      }
+    }
+  }
+}
