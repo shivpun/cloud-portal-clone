@@ -5,3 +5,13 @@
   --light: #b3d6f2;
   --text-blue: #135995;
 }
+
+.intro-cloud {
+  opacity: 1;
+  box-shadow: rgba(33, 33, 33, 0.8) 0px 0px 1px 2px, rgba(33, 33, 33, 0.5) 0px 0px 0px 5000px;
+  box-sizing: content-box;
+  position: absolute;
+  z-index: 9999998;
+  border-radius: 4px;
+  transition: all .3s ease-out;
+}

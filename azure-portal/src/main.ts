@@ -1,10 +1,10 @@
-import './assets/main.css'
+import '@/assets/main.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
 import AzurePortalApp from "@/application/azure-portal-apps/AzurePortalApp.vue"
-import router from './router'
+import router from '@/router'
 
 const app = createApp(AzurePortalApp)
 
